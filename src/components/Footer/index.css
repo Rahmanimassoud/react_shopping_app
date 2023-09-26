@@ -1,0 +1,5 @@
+
+#footer {
+    background-color: rgb(168, 234, 234);
+    grid-column: span 2;
+}

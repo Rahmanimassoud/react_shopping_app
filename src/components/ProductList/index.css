@@ -1,0 +1,12 @@
+
+#product-card {
+    border: 4px solid blue;
+    margin: 10px;
+}
+/* #product-list {
+    background-color: brown;
+} */
+
+#product-card img {
+    width: 50%;
+}
