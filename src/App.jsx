@@ -19,7 +19,6 @@ function App() {
 
       setProducts(response.data)
 
-
     })
 
   }, [])

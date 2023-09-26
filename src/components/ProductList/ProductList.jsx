@@ -11,7 +11,6 @@ const ProductList = () => {
 
     return (
         <div id="product-list">
-            <h1>ProductList</h1>
             {
                 products.map((eachProduct) => {
                     return <Card key={eachProduct.id} productData = {eachProduct}/>

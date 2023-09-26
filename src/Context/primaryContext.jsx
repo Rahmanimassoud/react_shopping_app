@@ -14,13 +14,23 @@ export const primaryContext = createContext(); //this what components would impo
 const PrimaryProvider = (props) => {
 
     const [products, setProducts] = useState([])   //our states
+    const [cart, setCart] = useState([])   //our states
+    console.log({cart});
+    
+    // let exampleObject = {
+    //     product: {},
+    //     number: 3
+    // }
 
     console.log(products);
 
     return (
         <primaryContext.Provider value={{
             products: products,
-            setProducts: setProducts
+            setProducts: setProducts,
+            cart: cart,
+            setCart: setCart
+
         }}>
             {props.children}
 
